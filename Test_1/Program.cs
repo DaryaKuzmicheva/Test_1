@@ -2,8 +2,8 @@
 string str = Console.ReadLine()!;
 string[] array1 = str.Split(' ');
 string[] array2 = new string[array1.Length];
-
-
+FindItems(array1, array2);
+PrintArray(array2);
 void FindItems(string[] array1, string[] array2)
 {
     int count = 0;
@@ -22,5 +22,4 @@ void PrintArray(string[] array2)
     {
         Console.Write($"{array2[i]} ");
     }
-  
 }
