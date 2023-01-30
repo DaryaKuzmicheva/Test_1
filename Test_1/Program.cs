@@ -16,3 +16,11 @@ void FindItems(string[] array1, string[] array2)
         }
     }
 }
+void PrintArray(string[] array2)
+{
+    for (int i = 0; i < array2.Length; i++)
+    {
+        Console.Write($"{array2[i]} ");
+    }
+  
+}
